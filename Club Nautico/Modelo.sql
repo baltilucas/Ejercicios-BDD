@@ -9,7 +9,7 @@ CREATE TABLE Socio (
 );
 
 CREATE TABLE Barco (
-    idBarco INT PRIMARY KE AUTO_INCREMENT,
+    idBarco INT PRIMARY KEY AUTO_INCREMENT,
     idSocio INT,
     nombreBarco VARCHAR(100),
     modelo VARCHAR(100),
